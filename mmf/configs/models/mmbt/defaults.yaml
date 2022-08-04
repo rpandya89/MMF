@@ -18,7 +18,7 @@ model_config:
     modal_encoder:
       type: torchvision_resnet # frcnn  # detectron2_resnet  # resnet152
       params:
-        pretrained: true
+        pretrained: false
         pool_type: avg
         num_output_features: 1
         name: wide_resnet101_2
