@@ -1,4 +1,6 @@
+
 includes:
+#- configs/models/mmbt/classification.yaml
 - configs/models/mmbt/defaults.yaml
 - configs/datasets/hateful_memes/bert.yaml
 
