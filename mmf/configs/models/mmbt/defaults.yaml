@@ -15,6 +15,8 @@ model_config:
     text_hidden_size: 768
     # Used when classification head is activated
     num_labels: 2
+    losses:
+      - type: cross_entropy
     modal_encoder:
       type: torchvision_resnet # frcnn  # detectron2_resnet  # resnet152
       params:
