@@ -16,7 +16,7 @@ model_config:
     # Used when classification head is activated
     num_labels: 2
     losses:
-      - type: cross_entropy
+    - type: cross_entropy
     modal_encoder:
       type: torchvision_resnet # frcnn  # detectron2_resnet  # resnet152
       params:
