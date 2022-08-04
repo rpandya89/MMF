@@ -1,5 +1,5 @@
 includes:
-- configs/models/mmbt/defaults.yaml
+- configs/models/mmbt/classification.yaml
 - configs/datasets/hateful_memes/bert.yaml
 
 scheduler:

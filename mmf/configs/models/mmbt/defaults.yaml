@@ -22,7 +22,7 @@ model_config:
         pool_type: avg
         num_output_features: 1
         name: wide_resnet101_2
-        zero_init_residual: true
+        zero_init_residual: false
 
     use_modal_start_token: true
     use_modal_end_token: true
